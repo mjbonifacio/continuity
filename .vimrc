@@ -3,6 +3,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " BASIC EDITOR CONFIGURATION
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 let mapleader = ","
 
 " Set line numbers
@@ -24,10 +25,17 @@ set ignorecase smartcase
 " highlight current line
 set cursorline
 
+" Always show tab bar at the top
+set showtabline=2
+set winwidth=79
+
 " Navigation
 set scroll=10
 
 " plugins
 execute pathogen#infect()
-set runtimepath^=~/.vim/bundle/ctrlp.vim
 filetype plugin indent on
+
+" CtrlP
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_show_hidden = 1
