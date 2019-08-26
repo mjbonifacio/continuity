@@ -10,6 +10,7 @@ set number
 
 " Syntax highlighting
 syntax on
+colorscheme gruvbox
 
 " Whitespace
 set expandtab
@@ -25,3 +26,8 @@ set cursorline
 
 " Navigation
 set scroll=10
+
+" plugins
+execute pathogen#infect()
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+filetype plugin indent on

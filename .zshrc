@@ -60,3 +60,5 @@ PATH="$GOPATH/bin:$PATH"
 # kubernetes
 alias k="kubectl"
 
+# load machine specific settings - create a .zshrc.local when you set up a new machine!!
+. ~/.zshrc.local
