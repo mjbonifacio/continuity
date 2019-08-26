@@ -47,7 +47,6 @@ alias be="bundle exec"
 
 # node
 export PATH="/usr/local/opt/node@10/bin:$PATH"
-export TSH_USER=michael.bonifacio@checkr.com
 
 # python
 alias aenv=". env/bin/activate"
