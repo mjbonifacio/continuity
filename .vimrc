@@ -21,3 +21,6 @@ set ignorecase smartcase
 
 " highlight current line
 set cursorline
+
+" Navigation
+set scroll=10
