@@ -55,7 +55,6 @@ alias denv="deactivate"
 
 # go
 export GOPATH=$HOME/go
-PATH="$GOPATH/bin:$PATH"
 
 # kubernetes
 alias k="kubectl"
