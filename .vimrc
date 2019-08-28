@@ -42,4 +42,4 @@ let g:ctrlp_show_hidden = 1
 let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 
 " tags
-set tags=.tags
+set tags=tags
