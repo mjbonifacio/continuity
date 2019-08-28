@@ -7,6 +7,11 @@ Dotfiles and other configuations that should live with me across machines
 * [iTerm2](https://www.iterm2.com) - Guake like terminal
 * [vmd](https://github.com/yoshuawuyts/vmd) - cmd line tool for markdown preview 
 
+#### Install ctags
+````
+brew install ctags
+```
+
 ### General 
 1. Clone this repository 
 2. Create symlinks in my home folder 

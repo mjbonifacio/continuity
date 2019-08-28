@@ -59,5 +59,8 @@ export GOPATH=$HOME/go
 # kubernetes
 alias k="kubectl"
 
+# mac stuff
+alias ctags="$(brew --prefix)/bin/ctags"
+
 # load machine specific settings - create a .zshrc.local when you set up a new machine!!
 . ~/.zshrc.local
