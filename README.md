@@ -14,8 +14,7 @@ brew install ctags
 
 ### General 
 1. Clone this repository 
-2. Create symlinks in my home folder 
- ex: `ln -s ~/continuity/.vimrc ~/.vimrc`
+2. Create symlinks in my home folder, example: `ln -s ~/continuity/.vimrc ~/.vimrc`
 
 ### iterm2
 1. Create a new profile, go to keys, and load a preset for "natural text editing" 
