@@ -8,19 +8,20 @@ Dotfiles and other configuations that should live with me across machines
 * [vmd](https://github.com/yoshuawuyts/vmd) - cmd line tool for markdown preview 
 
 #### Install ctags
-````
+```
 brew install ctags
 ```
 
 ### General 
 1. Clone this repository 
 2. Create symlinks in my home folder 
-* `ln -s ~/continuity/.vimrc ~/.vimrc`
+ ex: `ln -s ~/continuity/.vimrc ~/.vimrc`
 
 ### iterm2
 1. Create a new profile, go to keys, and load a preset for "natural text editing" 
 2. Set gruvbox colors from [github](https://github.com/morhetz/gruvbox-contrib).
 3. Set terminal width and set activation key to `option + z`.
+4. Set font size to 14
 
 ### zsh
 1. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), which includes the `zsh` shell.
