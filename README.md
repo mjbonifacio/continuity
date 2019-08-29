@@ -26,6 +26,10 @@ brew install ctags
 1. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), which includes the `zsh` shell.
 2. Create a `.zsh.local` in my home folder that will hold machine (or company/organization) specific settings. This'll get sourced at the end of the linked .zshrc file.
 
+### git
+1. Set config (name and email address), and location of symlinked global gitignore.
+* `git config --global --add core.excludesFile ~/.gitignore.global`
+
 ### vim
 1. install [vim-pathogen](https://github.com/tpope/vim-pathogen) under ~/.vim/bundle
 2. copy [gruvbox vim colors](https://github.com/morhetz/gruvbox) to ~/.vim/colors/gruvbox.vim
