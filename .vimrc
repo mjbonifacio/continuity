@@ -43,3 +43,6 @@ let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 
 " tags
 set tags=tags
+
+" Custom keymappings
+map Y y$

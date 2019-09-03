@@ -40,3 +40,8 @@ brew install ctags
 ### Mac
 * [Spectacle](https://www.spectacleapp.com/) - window snapper/resizer
 * [Atom](https://atom.io/) - awesome UI-based text editor 
+
+## Possibly annoying things
+#### Problem: can't paste between vim sessions
+It's possible that your vim doesn't have `has('clipboard')==1`. Echo that from vim and troubleshoot (might be as simple as a `brew install vim` and adding an alias to `.zshrc.local`).
+
