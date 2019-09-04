@@ -12,6 +12,12 @@ Dotfiles and other configuations that should live with me across machines
 brew install ctags
 ```
 
+And also install [vim-go](https://github.com/fatih/vim-go) for that sweet go dev workflow.
+
+```
+git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
+```
+
 ### General 
 1. Clone this repository 
 2. Create symlinks in my home folder, example: `ln -s ~/continuity/.vimrc ~/.vimrc`
