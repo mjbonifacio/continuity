@@ -17,10 +17,14 @@ colorscheme gruvbox
 set expandtab
 set tabstop=2
 set shiftwidth=2
+set shiftround
 set autoindent
 
+" Search
 " make searches case-sensitive only if they contain upper-case characters
-set ignorecase smartcase
+set ignorecase
+set smartcase
+set incsearch
 
 " highlight current line
 set cursorline
@@ -46,3 +50,4 @@ set tags=tags
 
 " Custom keymappings
 map Y y$
+
