@@ -48,11 +48,13 @@ defaults write -g KeyRepeat -int 2
 4. [ctrlp-py-matcher](https://github.com/FelikZ/ctrlp-py-matcher)
 5. [lightline](https://github.com/itchyny/lightline.vim)
 6. [vim-gitbranch](https://github.com/itchyny/vim-gitbranch) so lightline can show us the branch with my `.vimrc` config
+7. [vim-surround](https://github.com/tpope/vim-surround)
 
 ## Other Tools 
 ### Mac
 * [Spectacle](https://www.spectacleapp.com/) - window snapper/resizer
 * [Atom](https://atom.io/) - awesome UI-based text editor 
+* [bat](https://github.com/sharkdp/bat), a cat clone with wings: `brew install bat`
 
 ## Possibly annoying things
 #### Problem: can't paste between vim sessions
