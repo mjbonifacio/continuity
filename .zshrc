@@ -37,7 +37,6 @@ alias gpl="git pull"
 alias gp="git push"
 
 # nav
-alias gows="cd ~/go/src/github.com/workspace"
 alias ws="cd ~/workspace"
 alias cr="cd ~/workspace/checkr"
 
