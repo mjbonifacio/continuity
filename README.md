@@ -23,7 +23,7 @@ git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
 2. Create symlinks in my home folder, example: `ln -s ~/continuity/.vimrc ~/.vimrc`
 3. Reduce key repeat by a little bit
 ```
-defaults write -g InitialKeyRepeat -int 15
+defaults write -g InitialKeyRepeat -int 17
 defaults write -g KeyRepeat -int 2
 ```
 
