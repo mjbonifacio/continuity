@@ -21,6 +21,11 @@ git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
 ### General 
 1. Clone this repository 
 2. Create symlinks in my home folder, example: `ln -s ~/continuity/.vimrc ~/.vimrc`
+3. Reduce key repeat by a little bit
+```
+defaults write -g InitialKeyRepeat -int 15
+defaults write -g KeyRepeat -int 2
+```
 
 ### iterm2
 1. Create a new profile, go to keys, and load a preset for "natural text editing" 
@@ -37,10 +42,12 @@ git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
 * `git config --global --add core.excludesFile ~/.gitignore.global`
 
 ### vim
-1. install [vim-pathogen](https://github.com/tpope/vim-pathogen) under ~/.vim/bundle
+1. [vim-pathogen](https://github.com/tpope/vim-pathogen)
 2. copy [gruvbox vim colors](https://github.com/morhetz/gruvbox) to ~/.vim/colors/gruvbox.vim
-3. install [ctrlp](https://github.com/ctrlpvim/ctrlp.vim) under ~/.vim/bundle
-4. install [ctrlp-py-matcher](https://github.com/FelikZ/ctrlp-py-matcher) under ~/.vim/bundle
+3. [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
+4. [ctrlp-py-matcher](https://github.com/FelikZ/ctrlp-py-matcher)
+5. [lightline](https://github.com/itchyny/lightline.vim)
+6. [vim-gitbranch](https://github.com/itchyny/vim-gitbranch) so lightline can show us the branch with my `.vimrc` config
 
 ## Other Tools 
 ### Mac

@@ -29,12 +29,30 @@ set cursorline
 set showtabline=2
 set winwidth=79
 
+" Splits
+set splitbelow splitright
+
 " Navigation
 set scroll=10
 
 " plugins
 execute pathogen#infect()
 filetype plugin indent on
+
+" lightline.vim
+set laststatus=2
+set noshowmode
+
+let g:lightline = {
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'gitbranch#name'
+      \ },
+      \ }
+
 
 " CtrlP
 set runtimepath^=~/.vim/bundle/ctrlp.vim
