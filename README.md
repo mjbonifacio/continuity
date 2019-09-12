@@ -11,13 +11,11 @@ Dotfiles and other configuations that should live with me across machines
 ```
 brew install ctags
 ```
-
-And also install [vim-go](https://github.com/fatih/vim-go) for that sweet go dev workflow.
-
+You can generate tags in a project's root and may need to create an alias for this version.
 ```
-git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
+ctags -R .
+alias ctags="$(brew --prefix)/bin/ctags" <-- is already in my .zshrc
 ```
-
 ### General 
 1. Clone this repository 
 2. Create symlinks in my home folder, example: `ln -s ~/continuity/.vimrc ~/.vimrc`
@@ -49,6 +47,10 @@ defaults write -g KeyRepeat -int 2
 5. [lightline](https://github.com/itchyny/lightline.vim)
 6. [vim-gitbranch](https://github.com/itchyny/vim-gitbranch) so lightline can show us the branch with my `.vimrc` config
 7. [vim-surround](https://github.com/tpope/vim-surround)
+8. [NERDTree](https://github.com/scrooloose/nerdtree) though most of the time ctrl-p will be better
+
+#### Language specific plugins
+* [vim-go](https://github.com/fatih/vim-go)
 
 ## Other Tools 
 ### Mac
