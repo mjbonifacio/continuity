@@ -40,6 +40,10 @@ defaults write -g KeyRepeat -int 2
 * `git config --global --add core.excludesFile ~/.gitignore.global`
 
 ### vim
+Start with macvim, which supports YouCompleteMe:
+
+`brew install macvim`
+
 1. [vim-pathogen](https://github.com/tpope/vim-pathogen)
 2. copy [gruvbox vim colors](https://github.com/morhetz/gruvbox) to ~/.vim/colors/gruvbox.vim
 3. [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
@@ -48,6 +52,7 @@ defaults write -g KeyRepeat -int 2
 6. [vim-gitbranch](https://github.com/itchyny/vim-gitbranch) so lightline can show us the branch with my `.vimrc` config
 7. [vim-surround](https://github.com/tpope/vim-surround)
 8. [NERDTree](https://github.com/scrooloose/nerdtree) though most of the time ctrl-p will be better
+9. [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
 
 #### Language specific plugins
 * [vim-go](https://github.com/fatih/vim-go)

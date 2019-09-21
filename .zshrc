@@ -38,7 +38,6 @@ alias gp="git push"
 
 # nav
 alias ws="cd ~/workspace"
-alias cr="cd ~/workspace/checkr"
 
 # ruby
 eval "$(rbenv init -)"
