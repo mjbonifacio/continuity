@@ -30,6 +30,7 @@ defaults write -g KeyRepeat -int 2
 2. Set gruvbox colors from [github](https://github.com/morhetz/gruvbox-contrib).
 3. Set terminal width and set activation key to `option + z`.
 4. Set font size to 14
+5. Under the general pane, working directory section, go to advanced configuration and set new splits to open in current dir.
 
 ### zsh
 1. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), which includes the `zsh` shell.
