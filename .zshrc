@@ -13,6 +13,7 @@ source $ZSH/oh-my-zsh.sh
 fpath=(/usr/local/share/zsh-completions $fpath)
 alias sz="source ~/.zshrc"
 alias vz="vim ~/.zshrc"
+alias vzl="vim ~/.zshrc.local"
 alias az="atom ~/.zshrc"
 
 # vim
@@ -57,8 +58,9 @@ export GOPATH=$HOME/go
 # kubernetes
 alias k="kubectl"
 
-# mac stuff
+# tags
 alias ctags="$(brew --prefix)/bin/ctags"
+alias gentags="ctags -R ."
 
 # load machine specific settings - create a .zshrc.local when you set up a new machine!!
 . ~/.zshrc.local

@@ -40,6 +40,13 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+" Auto open quickfix on vimgrep search
+augroup myvimrc
+    autocmd!
+    autocmd QuickFixCmdPost [^l]* cwindow
+    autocmd QuickFixCmdPost l*    lwindow
+augroup EN
+
 " Navigation
 set scroll=10
 
