@@ -54,6 +54,7 @@ Start with macvim, which supports YouCompleteMe:
 7. [vim-surround](https://github.com/tpope/vim-surround)
 8. [NERDTree](https://github.com/scrooloose/nerdtree) though most of the time ctrl-p will be better
 9. [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
+10. [auto-pairs](https://github.com/jiangmiao/auto-pairs)
 
 #### Language specific plugins
 * [vim-go](https://github.com/fatih/vim-go)
