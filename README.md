@@ -1,11 +1,9 @@
 # continuity
-Dotfiles and other configuations that should live with me across machines
-
+Dotfiles and other configuations that should live with me across machines. This is mostly Mac specific setup.
 
 ## New dev machine setup
 ### Dev Necesseties
 * [iTerm2](https://www.iterm2.com) - Guake like terminal
-* [vmd](https://github.com/yoshuawuyts/vmd) - cmd line tool for markdown preview 
 
 #### Install ctags
 ```
@@ -55,17 +53,22 @@ Start with macvim, which supports YouCompleteMe:
 8. [NERDTree](https://github.com/scrooloose/nerdtree) though most of the time ctrl-p will be better
 9. [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
 10. [auto-pairs](https://github.com/jiangmiao/auto-pairs)
+11. [vim-fugitive](https://github.com/tpope/vim-fugitive)
 
 #### Language specific plugins
 * [vim-go](https://github.com/fatih/vim-go)
 
 ## Other Tools 
+### CLI tools
+* [tig](https://github.com/jonas/tig)
+* [vmd](https://github.com/yoshuawuyts/vmd) - cmd line tool for markdown preview 
+* [bat](https://github.com/sharkdp/bat), a cat clone with wings: `brew install bat`
+* tree, to get a quick visual of directories: `brew install tree`
+
 ### Mac
 * [Spectacle](https://www.spectacleapp.com/) - window snapper/resizer
 * [Atom](https://atom.io/) - awesome UI-based text editor 
-* [bat](https://github.com/sharkdp/bat), a cat clone with wings: `brew install bat`
 
 ## Possibly annoying things
 #### Problem: can't paste between vim sessions
-It's possible that your vim doesn't have `has('clipboard')==1`. Echo that from vim and troubleshoot (might be as simple as a `brew install vim` and adding an alias to `.zshrc.local`).
-
+It's possible that your vim doesn't have `has('clipboard')==1`. Echo that from vim and troubleshoot (might be as simple as a `brew install vim` (to install MacVim) and adding an alias to `.zshrc.local`).
