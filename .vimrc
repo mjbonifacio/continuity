@@ -80,13 +80,11 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 
-" vim-go
-"" auto identifier info on hover
-let g:go_auto_type_info = 1
-
 " tags
 set tags=tags
 
 " Custom keymappings
 map Y y$
+nmap j gj
+nmap k gk
 
