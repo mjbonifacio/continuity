@@ -86,7 +86,6 @@ let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 
 " NERDCommenter
 let g:NERDSpaceDelims = 1
+let g:NERDDefaultAlign = 'left'
 
 " tags
-set tags=tags
-
