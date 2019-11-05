@@ -33,6 +33,11 @@ set cursorline
 set showtabline=2
 set winwidth=79
 
+" Custom keymappings
+map Y y$
+nmap j gj
+nmap k gk
+
 " Splits
 set splitbelow splitright
 map <C-h> <C-w>h
@@ -74,17 +79,14 @@ let g:lightline = {
       \ },
       \ }
 
-
 " CtrlP
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 
+" NERDCommenter
+let g:NERDSpaceDelims = 1
+
 " tags
 set tags=tags
-
-" Custom keymappings
-map Y y$
-nmap j gj
-nmap k gk
 
