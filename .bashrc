@@ -2,6 +2,8 @@
 # bash setup.
 # vim
 alias vrc="vim ~/.vimrc"
+alias vb="vim ~/.bashrc"
+alias bz="source ~/.bashrc"
 
 # git
 cur-branch() { echo $(git rev-parse --abbrev-ref HEAD); }
