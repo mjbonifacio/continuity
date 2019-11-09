@@ -5,9 +5,10 @@ mkdir autoload bundle
 
 
 # Link dotfiles
-ln -s ~/.bashrc ./.bashrc
+rm  ~/.bashrc ~/.vimrc
+ln -s ~/continuity/.bashrc ~/.bashrc
 source ~/.bashrc
-ln -s ~/.vimrc ./.vimrc
+ln -s ~/continuity/.vimrc ~/.vimrc
 
 # git
 git config --global user.email "michaelbonifacio@gmail.com"
