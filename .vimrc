@@ -6,6 +6,10 @@
 
 let mapleader = ","
 
+" plugins
+execute pathogen#infect()
+filetype plugin indent on
+
 " Set line numbers
 set number 
 
@@ -61,10 +65,6 @@ augroup EN
 " Navigation
 set scroll=10
 
-" plugins
-execute pathogen#infect()
-filetype plugin indent on
-
 " lightline.vim
 set laststatus=2
 set noshowmode
@@ -88,4 +88,5 @@ let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 let g:NERDSpaceDelims = 1
 let g:NERDDefaultAlign = 'left'
 
-" tags
+" YouCompleteMe
+set encoding=utf-8

@@ -44,7 +44,7 @@ Start with macvim, which supports YouCompleteMe:
 `brew install macvim`
 
 1. [vim-pathogen](https://github.com/tpope/vim-pathogen)
-2. copy [gruvbox vim colors](https://github.com/morhetz/gruvbox) to ~/.vim/colors/gruvbox.vim
+2. [gruvbox vim colors](https://github.com/morhetz/gruvbox)
 3. [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
 4. [ctrlp-py-matcher](https://github.com/FelikZ/ctrlp-py-matcher)
 5. [lightline](https://github.com/itchyny/lightline.vim)
@@ -73,3 +73,13 @@ Start with macvim, which supports YouCompleteMe:
 ## Possibly annoying things
 #### Problem: can't paste between vim sessions
 It's possible that your vim doesn't have `has('clipboard')==1`. Echo that from vim and troubleshoot (might be as simple as a `brew install vim` (to install MacVim) and adding an alias to `.zshrc.local`).
+
+## Setup Scripts
+I gave my first go at a repeatable Ubuntu setup script. As of 9 Nov 2011, it's a prerequisite that this repository is cloned, all dotfiles and scripts are in the root of this project, and the script is executed from here. As an example, you should just be able to:
+
+```
+cd ~/continuity
+bash ubuntu-setup.bash
+```
+
+And things should work
