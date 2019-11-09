@@ -78,8 +78,11 @@ It's possible that your vim doesn't have `has('clipboard')==1`. Echo that from v
 I gave my first go at a repeatable Ubuntu setup script. As of 9 Nov 2011, it's a prerequisite that this repository is cloned, all dotfiles and scripts are in the root of this project, and the script is executed from here. As an example, you should just be able to:
 
 ```
+apt update
+apt install git -y
+git clone https://github.com/MJBonifacio/continuity.git ~/continuity
 cd ~/continuity
 bash ubuntu-setup.bash
 ```
 
-And things should work
+And things should work!
