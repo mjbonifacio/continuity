@@ -11,7 +11,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source ~/.bashrc
+source ~/continuity/.bashrc
 fpath=(/usr/local/share/zsh-completions $fpath)
 alias sz="source ~/.zshrc"
 alias vz="vim ~/.zshrc"
