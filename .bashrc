@@ -1,6 +1,7 @@
 # This works as a dotfile for stuff common to both my zsh and
 # bash setup.
 # vim
+alias v="vim"
 alias vrc="vim ~/.vimrc"
 alias vb="vim ~/.bashrc"
 alias bz="source ~/.bashrc"
