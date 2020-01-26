@@ -2,9 +2,11 @@
 # bash setup.
 # vim
 alias v="vim"
+alias vcl="find . -type f -name \"*.sw[klmnop]\" -delete"
 alias vrc="vim ~/.vimrc"
 alias vb="vim ~/.bashrc"
 alias bz="source ~/.bashrc"
+
 
 # git
 cur-branch() { echo $(git rev-parse --abbrev-ref HEAD); }
