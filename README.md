@@ -2,6 +2,9 @@
 Dotfiles and other configuations that should live with me across machines. This is mostly Mac specific setup.
 
 ## New dev machine setup
+### Fonts I like
+`Monaco` is pretty nice.
+
 ### Dev Necesseties
 * [iTerm2](https://www.iterm2.com) - Guake like terminal
 
