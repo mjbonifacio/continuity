@@ -72,7 +72,6 @@ Start with macvim, which supports YouCompleteMe:
 ### Mac
 * [Spectacle](https://www.spectacleapp.com/) - window snapper/resizer
 * [Atom](https://atom.io/) - awesome UI-based text editor 
-* [Dash](https://kapeli.com/dash) - a desktop app for browsing diff api docs, cool other feature is that it has interactive prompts for go and ruby
 
 ## Possibly annoying things
 #### Problem: can't paste between vim sessions
