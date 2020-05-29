@@ -1,6 +1,14 @@
+# Mac
 *.DS_STORE
+
+# Python
 *.pyc
 tags
 .tags
 env/**
+
+# Vim
 *.sw[opmn]
+
+# IDEs
+.idea
