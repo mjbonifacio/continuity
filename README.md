@@ -58,6 +58,7 @@ Start with macvim, which supports YouCompleteMe:
 10. [auto-pairs](https://github.com/jiangmiao/auto-pairs)
 11. [vim-fugitive](https://github.com/tpope/vim-fugitive)
 12. [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
+13. [vim-auto-save](https://github.com/907th/vim-auto-save)
 
 #### Language specific plugins
 * [vim-go](https://github.com/fatih/vim-go)

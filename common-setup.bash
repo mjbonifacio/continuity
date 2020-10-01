@@ -27,5 +27,6 @@ git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 git clone https://github.com/scrooloose/nerdcommenter.git ~/.vim/bundle/nerdcommenter
 git clone https://github.com/ycm-core/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
 git clone git://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
+git clone https://github.com/907th/vim-auto-save ~/.vim/bundle/vim-auto-save
 
 git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go

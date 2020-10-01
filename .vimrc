@@ -90,3 +90,6 @@ let g:NERDDefaultAlign = 'left'
 
 " YouCompleteMe
 set encoding=utf-8
+
+" vim-auto-save
+let g:auto_save = 1  " enable AutoSave on Vim startup
