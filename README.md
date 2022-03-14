@@ -73,6 +73,7 @@ Start with macvim, which supports YouCompleteMe:
 ### Mac
 * [Spectacle](https://www.spectacleapp.com/) - window snapper/resizer
 * [Atom](https://atom.io/) - awesome UI-based text editor 
+* [DisplayBudy](https://displaybuddy.app) - display controls from mac menu bar
 
 ## Possibly annoying things
 #### Problem: can't paste between vim sessions
