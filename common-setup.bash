@@ -14,6 +14,10 @@ ln -s ~/continuity/.vimrc ~/.vimrc
 git config --global user.email "michaelbonifacio@gmail.com"
 git config --global user.name "Michael Bonifacio"
 
+# go
+# https://github.com/moovweb/gvm
+bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+
 # vim
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 git clone https://github.com/morhetz/gruvbox ~/.vim/bundle/gruvbox.vim
