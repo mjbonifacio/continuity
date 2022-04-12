@@ -6,6 +6,7 @@ alias vcl="find . -type f -name \"*.sw[klmnop]\" -delete"
 alias vrc="vim ~/.vimrc"
 alias vb="vim ~/.bashrc"
 alias bz="source ~/.bashrc"
+alias icloud="cd ~/Library/Mobile\ Documents/"
 
 
 # git
