@@ -38,7 +38,10 @@ set showtabline=2
 set winwidth=79
 
 " Custom keymappings
+" Y yanks until end of line
 map Y y$
+
+" Natural navigation when line wraps
 nmap j gj
 nmap k gk
 
