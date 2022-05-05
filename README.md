@@ -37,6 +37,21 @@ and things should work! It's probably easily adaptable for other Linux distros, 
 * RubyMine
 * Whatever JetBrains IDE for that language
 
+#### Setting up JetBrains on the command line
+Create a small script to launch the IDE at `/usr/local/bin/goland`, for example ([guide](https://www.jetbrains.com/help/ruby/working-with-the-ide-features-from-command-line.html#standalone))
+
+```
+#!/bin/sh
+
+open ~/Applications/JetBrains\ Toolbox/GoLand.app/ --args "$@"
+```
+
+then make it executable:
+
+```
+chmod +x /usr/local/bin/goland
+```
+
 ### iTerm2
 * [iTerm2](https://www.iterm2.com) - Guake like terminal
 #### Import Preferred Profile
