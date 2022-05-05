@@ -1,8 +1,3 @@
-cd $HOME
-mkdir .vim
-cd .vim
-mkdir autoload bundle
-
 # Remove created files for idempotency
 rm  ~/.bashrc ~/.vimrc ~/.ideavimrc
 
@@ -23,6 +18,10 @@ git config --global --add core.excludesFile ~/.gitignore.global
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 
 # vim
+mkdir ~/.vim
+cd ~/.vim
+mkdir autoload bundle
+
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 git clone https://github.com/morhetz/gruvbox ~/.vim/bundle/gruvbox.vim
 git clone https://github.com/ctrlpvim/ctrlp.vim ~/.vim/bundle/ctrlp.vim
