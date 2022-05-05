@@ -3,16 +3,20 @@ mkdir .vim
 cd .vim
 mkdir autoload bundle
 
+# Remove created files for idempotency
+rm  ~/.bashrc ~/.vimrc ~/.ideavimrc
 
 # Link dotfiles
-rm  ~/.bashrc ~/.vimrc
 ln -s ~/continuity/.bashrc ~/.bashrc
-source ~/.bashrc
 ln -s ~/continuity/.vimrc ~/.vimrc
+ln -s ~/continuity/.vimrc ~/.ideavimrc
+ln -s ~/continuity/.gitignore.global ~/.gitignore.global
 
-# git
-git config --global user.email "michaelbonifacio@gmail.com"
-git config --global user.name "Michael Bonifacio"
+source ~/.bashrc
+touch ~/.zshrc.local
+source ~/.zshrc
+
+git config --global --add core.excludesFile ~/.gitignore.global
 
 # go
 # https://github.com/moovweb/gvm
@@ -21,7 +25,7 @@ bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/bins
 # vim
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 git clone https://github.com/morhetz/gruvbox ~/.vim/bundle/gruvbox.vim
-git clone https://github.com/ctrlpvim/ctrlp.vim ~/.vim/bundle/ctrlp.vim 
+git clone https://github.com/ctrlpvim/ctrlp.vim ~/.vim/bundle/ctrlp.vim
 git clone https://github.com/FelikZ/ctrlp-py-matcher ~/.vim/bundle/ctrlp-py-matcher
 git clone https://github.com/itchyny/lightline.vim ~/.vim/bundle/lightline.vim
 git clone https://github.com/itchyny/vim-gitbranch ~/.vim/bundle/vim-gitbranch
