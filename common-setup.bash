@@ -1,7 +1,8 @@
 # Remove created files for idempotency
-rm  ~/.bashrc ~/.vimrc ~/.ideavimrc
+rm  ~/.bashrc ~/.zshrc ~/.vimrc ~/.ideavimrc
 
 # Link dotfiles
+ln -s ~/continuity/.zshrc ~/.zshrc
 ln -s ~/continuity/.bashrc ~/.bashrc
 ln -s ~/continuity/.vimrc ~/.vimrc
 ln -s ~/continuity/.vimrc ~/.ideavimrc
