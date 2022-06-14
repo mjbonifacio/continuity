@@ -93,7 +93,10 @@ let g:NERDDefaultAlign = 'left'
 
 " YouCompleteMe
 set encoding=utf-8
+" Use homebrew's clangd
+let g:ycm_clangd_binary_path = trim(system('brew --prefix llvm')).'/bin/clangd'
 
 " vim-auto-save
 let g:auto_save = 1  " enable AutoSave on Vim startup
 autocmd BufRead,BufNewFile *.go let g:auto_save = 0
+

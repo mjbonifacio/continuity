@@ -29,6 +29,7 @@ and things should work! It's probably easily adaptable for other Linux distros, 
 ## Installing stuff
 ### GUIs
 * Insomnia REST Client
+  * And potentially export the collection of requests I may have been working with
 * MongoDB Compass
 
 ### IDEs
@@ -37,7 +38,10 @@ and things should work! It's probably easily adaptable for other Linux distros, 
 * RubyMine
 * Whatever JetBrains IDE for that language
 
-#### Setting up JetBrains on the command line
+#### Plugins
+- IdeaVim
+
+#### Setting up JetBrains IDEs to launch from command line
 Create a small script to launch the IDE at `/usr/local/bin/goland`, for example ([guide](https://www.jetbrains.com/help/ruby/working-with-the-ide-features-from-command-line.html#standalone))
 
 ```
@@ -77,6 +81,14 @@ You can generate tags in a project's root and may need to create an alias for th
 alias gentags="ctags -R ."
 gentags
 ```
+
+## Other Tools
+### Kubernetes
+Lots of little stuff here:
+- Krew
+- kubectx (ctx)
+- kubens (ns)
+- k9s
 
 ## Possibly annoying things
 #### Problem: can't paste between vim sessions

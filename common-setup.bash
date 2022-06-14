@@ -29,12 +29,12 @@ git clone https://github.com/ctrlpvim/ctrlp.vim ~/.vim/bundle/ctrlp.vim
 git clone https://github.com/FelikZ/ctrlp-py-matcher ~/.vim/bundle/ctrlp-py-matcher
 git clone https://github.com/itchyny/lightline.vim ~/.vim/bundle/lightline.vim
 git clone https://github.com/itchyny/vim-gitbranch ~/.vim/bundle/vim-gitbranch
-git clone https://github.com/tpope/vim-surround.git
-git clone https://github.com/tpope/vim-fugitive.git ~/.vim/vim-fugitive
+git clone https://github.com/tpope/vim-surround.git ~/.vim/bundle/vim-surround
+git clone https://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 git clone https://github.com/scrooloose/nerdcommenter.git ~/.vim/bundle/nerdcommenter
 git clone https://github.com/ycm-core/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
-git clone git://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
+git clone https://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
 git clone https://github.com/907th/vim-auto-save ~/.vim/bundle/vim-auto-save
 
 git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go

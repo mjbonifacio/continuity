@@ -46,6 +46,9 @@ alias denv="deactivate"
 export GOPATH=$HOME/go
 export PATH=$PATH:"$GOPATH/bin"
 export PATH=$PATH:"/usr/local/go/bin"
+
+## gvm
+export PATH=$PATH:$HOME/bin
 source ~/.gvm/scripts/gvm
 
 # kubernetes
