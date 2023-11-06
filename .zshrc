@@ -7,7 +7,6 @@ ZSH_THEME="robbyrussell"
 # plugins
 plugins=(
 	git
-	gpg-agent
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -19,7 +18,6 @@ alias vzl="vim ~/.zshrc.local"
 alias az="atom ~/.zshrc"
 
 # tags
-alias ctags="$(brew --prefix)/bin/ctags"
 alias gentags="ctags -R ."
 
 # load machine specific settings - create a .zshrc.local when you set up a new machine!!

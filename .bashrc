@@ -1,13 +1,12 @@
 # This works as a dotfile for stuff common to both my zsh and
 # bash setup.
+
 # vim
 alias v="vim"
 alias vcl="find . -type f -name \"*.sw[klmnop]\" -delete"
 alias vrc="vim ~/.vimrc"
 alias vb="vim ~/.bashrc"
 alias bz="source ~/.bashrc"
-alias icloud="cd ~/Library/Mobile\ Documents/"
-
 
 # git
 cur-branch() { echo $(git rev-parse --abbrev-ref HEAD); }
@@ -30,13 +29,6 @@ alias gp="git push"
 # nav
 alias ws="cd ~/workspace"
 
-# ruby
-eval "$(rbenv init -)"
-alias be="bundle exec"
-
-# node
-export PATH="/usr/local/opt/node@10/bin:$PATH"
-
 # python
 alias aenv=". env/bin/activate"
 alias cenv="virtualenv env -p $(which python3) && aenv"
@@ -46,10 +38,6 @@ alias denv="deactivate"
 export GOPATH=$HOME/go
 export PATH=$PATH:"$GOPATH/bin"
 export PATH=$PATH:"/usr/local/go/bin"
-
-## gvm
-export PATH=$PATH:$HOME/bin
-source ~/.gvm/scripts/gvm
 
 # kubernetes
 alias k="kubectl"
