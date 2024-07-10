@@ -33,6 +33,7 @@ alias ws="cd ~/workspace"
 alias aenv=". env/bin/activate"
 alias cenv="virtualenv env -p $(which python3) && aenv"
 alias denv="deactivate"
+alias py=python3
 
 # go
 export GOPATH=$HOME/go
@@ -44,3 +45,6 @@ alias k="kubectl"
 
 # tags
 alias gentags="ctags -R ."
+
+# fun homebrew hacks
+export PATH="/opt/homebrew/bin":$PATH

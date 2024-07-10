@@ -7,7 +7,17 @@ TODO: Setup an Ansible playbook to take care of this
 ### Mac
 1. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), which includes the `zsh` shell.
 2. Install Homebrew.
-3. Run the setup script, `zsh ~/continuity/mac-setup.bash`.
+3. Install some things that will require us to link exact versions:
+```
+brew reinstall python3
+brew install macvim
+```
+4. Add the install locations to your .zshrc.local: 
+```
+brew info macvim
+echo alias vim=/opt/homebrew/Cellar/macvim/9.1.0/bin/vim >> ~/.zshrc.local
+```
+5. Run the setup script, `zsh ~/continuity/mac-setup.bash`.
 
 That should be it! Anything other manual requirements are below. It's not idempotent... but that's something that can be improved :)
 
@@ -33,10 +43,10 @@ and things should work! It's probably easily adaptable for other Linux distros, 
 * MongoDB Compass
 
 ### IDEs
-* Atom
 * Goland
 * RubyMine
 * Whatever JetBrains IDE for that language
+* VS Code
 
 #### Plugins
 - IdeaVim

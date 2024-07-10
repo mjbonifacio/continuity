@@ -23,3 +23,5 @@ alias gentags="ctags -R ."
 # load machine specific settings - create a .zshrc.local when you set up a new machine!!
 . ~/.zshrc.local
 
+
+[[ -s "/Users/michael.bonifacio/.gvm/scripts/gvm" ]] && source "/Users/michael.bonifacio/.gvm/scripts/gvm"
